@@ -2,8 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-<link rel="stylesheet" type="text/css" href="/Style/template_normal.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Style/template_normal.min.css" />
 <link rel="stylesheet" type="text/css" href="/Script/default-skin/photoswipe.css" />
 <link rel="stylesheet" type="text/css" href="/Script/default-skin/default-skin.css" />
 
@@ -20,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     
 </head>
@@ -53,28 +52,32 @@
 
   </div>
 
-  <div class="nav-scroller tabs ">
+  <div id="tabs" class="nav-scroller tabs ">
     <div class="tabs__nav nav-scroller__items dragscroll">
       <button class="tabs__btn tabs__btn_active nav-scroller__item">Основне меню</button>
       <button class="tabs__btn nav-scroller__item">Барна карта</button>
       <button class="tabs__btn nav-scroller__item">Кальяни</button>
     </div>
     <div class="tabs__content">
-      <div class="tabs__pane tabs__pane_show">
-        Содержимое 1...
+      <div id="tab1-1" class="tabs__pane tabs__pane_show">
+        <p>Hello first word</p>
       </div>
-      <div class="tabs__pane">
-        Содержимое 2...
+      <div id="tab1-2" class="tabs__pane">
+        <p>SEcont toy </p>
       </div>
-      <div class="tabs__pane" id="content-3">
-        Содержимое 3...
+      <div id="tab1-3" class="tabs__pane" id="content-3">
+        <img class="hook" src="/Image/hook.png" alt="">
       </div>
     </div>
   </div>
   
+
+  
   
   <button onclick="topFunction()" id="myBtn" title="Go to top">☝️</button>
 
+
+  
   <script>// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
