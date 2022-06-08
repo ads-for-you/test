@@ -52,6 +52,19 @@
 
   </div>
 
+  <section >
+
+    <!-- Tab links -->
+<div>
+<div class="tab nav-scroller__items ">
+<button class="tablinks nav-scroller__item" onclick="openCity(event, 'London')" id="defaultOpen">Основне меню</button>
+<button class="tablinks nav-scroller__item" onclick="openCity(event, 'Paris')">Барна карта</button>
+<button class="tablinks nav-scroller__item" onclick="openCity(event, 'Tokyo')">Кальяни</button>
+</div>
+
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+
   <div  class="nav-scroller tabs ">
     <div class="tabs__nav nav-scroller__items dragscroll">
       <button class="tabs__btn tabs__btn_active nav-scroller__item">Основне меню</button>
@@ -61,9 +74,7 @@
     <div class="tabs__content">
       <div  class="tabs__pane tabs__pane_show">
         
-        <section >
-
-        </section>
+        
 
       </div>
       <div  class="tabs__pane">
@@ -77,6 +88,19 @@
     </div>
   </div>
   
+
+</div>
+
+<div id="Paris" class="tabcontent">
+<h3>Барна карта</h3>
+<p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <img class="hook" src="/Image/hook.png" alt="">
+</div>
+
+</section>
 
   
   
@@ -107,6 +131,7 @@ function topFunction() {
 <script type="text/javascript" src="/Script/default-skin/photoswipe.min.js"></script>
 <script type="text/javascript" src="/Script/default-skin/photoswipe-ui-default.min.js"></script>
 <script src="/Script/tab.js"></script>
+<script src="/Script/tab1.js"></script>
 
 <script type="text/javascript">
 /*<![CDATA[*/
