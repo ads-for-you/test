@@ -43,7 +43,7 @@
                           lastClientX = e.clientX;
                           lastClientY = e.clientY;
 
-                          e.preventDefault();
+                         
                       }
                   }, 0
               );
