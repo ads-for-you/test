@@ -57,7 +57,7 @@
 
     <!-- Tab links -->
 <div class="nav-scroller">
-<div class="tab nav-scroller__items ">
+<div class="tab nav-scroller__items dragscroll">
 <button class="tablinks nav-scroller__item" onclick="openCity(event, 'London')" id="defaultOpen">Основне меню</button>
 <button class="tablinks nav-scroller__item" onclick="openCity(event, 'Paris')">Барна карта</button>
 <button class="tablinks nav-scroller__item" onclick="openCity(event, 'Tokyo')">Кальяни</button>
@@ -67,7 +67,7 @@
 <div id="London" class="tabcontent">
         
       <div  class="nav-scroller tabs ">
-        <div class="tabs__nav nav-scroller__items dragscroll">
+        <div class="dragscroll tabs__nav nav-scroller__items ">
           <button class="tabs__btn tabs__btn_active nav-scroller__item">Кухня</button>
           <button class="tabs__btn nav-scroller__item">Гарячі напої</button>
           <button class="tabs__btn nav-scroller__item">Холодні напої</button>
@@ -551,9 +551,7 @@
                 </div>
               </div>
 
-              <div >
-               <br><br><br><br>
-              </div>
+              
 
 
           </div>
@@ -597,9 +595,7 @@
                 </div>
               </div>
 
-              <div >
-                <br><br><br><br><br><br><br><br><br><br><br><br>
-               </div>
+              
 
             </section>
             
@@ -735,6 +731,8 @@
 <script type="text/javascript" src="/Script/default-skin/photoswipe-ui-default.min.js"></script>
 <script type="text/javascript" src="/Script/tab.js"></script>
 <script type="text/javascript" src="/Script/index.js"></script>
+<script defer src="/Script/dragscroll.js"></script>
+
 
 </body>
 </html>
