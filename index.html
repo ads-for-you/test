@@ -714,30 +714,30 @@
 
   <div id="in"  class="bar_img">
     <div class="bar_bl" >
-      <button id="beer" type="button" value="Click" onmousedown="viewDiv()">Пиво</button>
-      <button id="gin" type="button" value="Click" onmousedown="viewDiv()">Джин</button>
-      <button id="liker" type="button" value="Click" onmousedown="viewDiv()">Лікер</button>
-      <button id="tekila" type="button" value="Click" onmousedown="viewDiv()">Текіла <br> Вермут</button>
-      <button id="rom" type="button" value="Click" onmousedown="viewDiv()">Ром</button>
-      <button id="viski" type="button" value="Click" onmousedown="viewDiv()">Віскі <br>Бурбон</button>
-      <button id="liker" type="button" value="Click" onmousedown="viewDiv()">Коньяк</button>
-      <button id="tekila" type="button" value="Click" onmousedown="viewDiv()">Текіла Вермут</button>
-      <button id="beer" type="button" value="Click" onmousedown="viewDiv()">Пиво</button>
-      <button id="djin" type="button" value="Click" onmousedown="viewDiv()">Джин</button>
-      <button id="liker" type="button" value="Click" onmousedown="viewDiv()">Лікер</button>
-      <button id="tekila" type="button" value="Click" onmousedown="viewDiv()">Текіла Вермут</button>
+      <button id="beer" type="button" value="Click" onmousedown="viewDiv_beer()">Пиво</button>
+      <button id="gin" type="button" value="Click" onmousedown="viewDiv_gin()">Джин</button>
+      <button id="liqueur" type="button" value="Click" onmousedown="viewDiv_liqueur()">Лікер</button>
+      <button id="tequila" type="button" value="Click" onmousedown="viewDiv_tequila()">Текіла <br> Вермут</button>
+      <button id="rum" type="button" value="Click" onmousedown="viewDiv()">Ром</button>
+      <button id="whiskey" type="button" value="Click" onmousedown="viewDiv()">Віскі <br>Бурбон</button>
+      <button id="cognac" type="button" value="Click" onmousedown="viewDiv()">Коньяк</button>
+      <button id="vodka" type="button" value="Click" onmousedown="viewDiv()">Горілка</button>
+      <button id="wine" type="button" value="Click" onmousedown="viewDiv()">Вино</button>
+      <button id="sparkling" type="button" value="Click" onmousedown="viewDiv()">Вино <br>Ігристе</button>
+      <button id="cocktails" type="button" value="Click" onmousedown="viewDiv()">Коктейлі</button>
+      <button id="shot" type="button" value="Click" onmousedown="viewDiv()">Шоти</button>
     </div>
 
     
   </div>
 
-  <div> 
+  <div id="button_in"> 
 
       <div id="beer_in" class="tabs__pane">
 
           <div style="display: flex; width: 100%;">
             <h1>Пиво</h1>
-            <button  type="button" value="Click" onmousedown="viewDiv()">←Повернутися</button>
+            <button  type="button" value="Click" onmousedown="viewDiv_beer()">←Повернутися</button>
           </div>
             
           <div class="block_d">
@@ -777,6 +777,213 @@
           </div>
 
           </div>
+
+      <div id="gin_in" class="tabs__pane">
+
+            <div style="display: flex; width: 100%;">
+              <h1>Джин</h1>
+              <button  type="button" value="Click" onmousedown="viewDiv_gin()">←Повернутися</button>
+            </div>
+              
+            <div class="block_d">
+              <div class="block_in">
+                <div class="name_d">
+                  <h3 >Finsbury Platinum</h3>
+                  <p>50мл</p>
+                </div>
+                <div class="price_d">
+                  <p >70₴</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="block_d">
+              <div class="block_in">
+                <div class="name_d">
+                  <h3 >Finsbury Strawberry</h3>
+                  <p>50мл</p>
+                </div>
+                <div class="price_d">
+                  <p >70₴</p>
+                </div>
+              </div>
+            </div>
+  
+      </div>
+
+      <div id="liqueur_in" class="tabs__pane">
+
+        <div style="display: flex; width: 100%;">
+          <h1>Лікер</h1>
+          <button  type="button" value="Click" onmousedown="viewDiv_liqueur()">←Повернутися</button>
+        </div>
+          
+        <div class="block_d">
+          <div class="block_in">
+            <div class="name_d">
+              <h3 >De Kuyper Амаретто</h3>
+              <p>50мл</p>
+            </div>
+            <div class="price_d">
+              <p >60₴</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="block_d">
+          <div class="block_in">
+            <div class="name_d">
+              <h3 >De Kuyper Кава</h3>
+              <p>50мл</p>
+            </div>
+            <div class="price_d">
+              <p >60₴</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="block_d">
+          <div class="block_in">
+            <div class="name_d">
+              <h3 >De Kuyper Тріпл Сек</h3>
+              <p>50мл</p>
+            </div>
+            <div class="price_d">
+              <p >60₴</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="block_d">
+          <div class="block_in">
+            <div class="name_d">
+              <h3 >De Kuyper Блю Кюрасао</h3>
+              <p>50мл</p>
+            </div>
+            <div class="price_d">
+              <p >60₴</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="block_d">
+          <div class="block_in">
+            <div class="name_d">
+              <h3 >De Kuyper Pisang</h3>
+              <p>50мл</p>
+            </div>
+            <div class="price_d">
+              <p >60₴</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="block_d">
+          <div class="block_in">
+            <div class="name_d">
+              <h3 >Malibu</h3>
+              <p>50мл</p>
+            </div>
+            <div class="price_d">
+              <p >70₴</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="block_d">
+          <div class="block_in">
+            <div class="name_d">
+              <h3 >Aperol Aperetivo</h3>
+              <p>50мл</p>
+            </div>
+            <div class="price_d">
+              <p >50₴</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="block_d">
+          <div class="block_in">
+            <div class="name_d">
+              <h3 >Baileys</h3>
+              <p>50мл</p>
+            </div>
+            <div class="price_d">
+              <p >70₴</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="block_d">
+          <div class="block_in">
+            <div class="name_d">
+              <h3 >Jagermeister</h3>
+              <p>50мл</p>
+            </div>
+            <div class="price_d">
+              <p >80₴</p>
+            </div>
+          </div>
+        </div>
+
+  </div>
+
+  <div id="tequila_in" class="tabs__pane">
+
+    <div style="display: flex; width: 100%;">
+      <h1>Текіла / Вермут</h1>
+      <button  type="button" value="Click" onmousedown="viewDiv_tequila()">←Повернутися</button>
+    </div>
+      
+    <div class="block_d">
+      <div class="block_in">
+        <div class="name_d">
+          <h3 >Martini Bianco</h3>
+          <p>50мл</p>
+        </div>
+        <div class="price_d">
+          <p >50₴</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block_d">
+      <div class="block_in">
+        <div class="name_d">
+          <h3 >Martini Rosso</h3>
+          <p>50мл</p>
+        </div>
+        <div class="price_d">
+          <p >50₴</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block_d">
+      <div class="block_in">
+        <div class="name_d">
+          <h3 >Sierra Antiguo срібна</h3>
+          <p>50мл</p>
+        </div>
+        <div class="price_d">
+          <p >80₴</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block_d">
+      <div class="block_in">
+        <div class="name_d">
+          <h3 >Sierra Antiguo золота</h3>
+          <p>50мл</p>
+        </div>
+        <div class="price_d">
+          <p >80₴</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
 
   </div>
 
