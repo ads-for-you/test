@@ -705,11 +705,12 @@ function up() {
 //    //
 
 function viewDiv(){
-  if ( document.getElementById("beer_in").style.display=="none") {
-    document.getElementById("beer_in").style.display = "block";
-    document.getElementById("in").style.display = "none";
-  }else{
+  if ( document.getElementById("beer_in").style.display=="block") {
     document.getElementById("beer_in").style.display = "none";
     document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("beer_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
   }
 };
