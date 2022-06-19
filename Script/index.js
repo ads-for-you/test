@@ -702,7 +702,14 @@ function up() {
   } else clearTimeout(t);
   return false;
 }
-
-
-
 //    //
+
+function viewDiv(){
+  if ( document.getElementById("beer_in").style.display=="none") {
+    document.getElementById("beer_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }else{
+    document.getElementById("beer_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+  }
+};
