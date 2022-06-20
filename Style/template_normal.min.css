@@ -35,8 +35,8 @@
     flex-wrap: wrap;
     list-style-type: none;
     background-color: #E6E6E6;
-    -moz-border-radius-topleft: 30px; 
-    -webkit-border-top-left-radius: 30px; 
+    -moz-border-radius-topleft:15vw; 
+    -webkit-border-top-left-radius: 15vw; 
   }
 
   .tabs__btn {
@@ -111,8 +111,6 @@ color: #000000;
 
   .tabs__pane_show {
 
--moz-border-radius-topleft: 64px; 
--webkit-border-top-left-radius: 64px; 
 
 display: flex;
 display: block;
@@ -657,7 +655,7 @@ color: #B0B0B0;
     display: block;
   }
 
-  #beer_in,#gin_in,#liqueur_in,#tequila_in{
+  #beer_in,#gin_in,#liqueur_in,#tequila_in,#rum_in,#whiskey_in,#cognac_in,#vodka_in,#wine_in,#sparkling_in,#cocktails_in, #shot_in {
     -moz-border-radius-topleft: 15vw; 
     -webkit-border-top-left-radius: 15vw; 
     position: relative;
@@ -706,6 +704,52 @@ color: #B0B0B0;
     letter-spacing: 0.32px;
     color: #161616;
   }
+
+  .cock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .cock img{
+    border-radius: 15px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 5vw;
+    width: 40vw;
+  }
+
+  #cock_bl{
+    margin: 1vw;
+  }
+
+  #cock_bl h3 {
+    font-size: 4.9vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 5vw;
+  }
+
+  #cock_bl h4 {
+    color: #B0B0B0;
+    font-weight: 700;
+    font-size: 3.9vw;
+    margin-top: 1vh;
+    margin-left: 5vw;
+  }
+
+  #cock_bl p{
+
+    font-size: 3.9vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-weight: 400;
+    margin-left: 5vw;
+  }
+
+
+  
 
   @media (min-width: 499px) {
 
@@ -792,3 +836,4 @@ color: #B0B0B0;
     }
   
   }
+

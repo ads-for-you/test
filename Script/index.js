@@ -1,3 +1,139 @@
+// Bar button//
+function viewDiv_beer(){
+  if ( document.getElementById("beer_in").style.display=="block") {
+    document.getElementById("beer_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("beer_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_gin(){
+  if ( document.getElementById("gin_in").style.display=="block") {
+    document.getElementById("gin_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("gin_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_liqueur(){
+  if ( document.getElementById("liqueur_in").style.display=="block") {
+    document.getElementById("liqueur_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("liqueur_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_tequila(){
+  if ( document.getElementById("tequila_in").style.display=="block") {
+    document.getElementById("tequila_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("tequila_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_rum(){
+  if ( document.getElementById("rum_in").style.display=="block") {
+    document.getElementById("rum_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("rum_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_whiskey(){
+  if ( document.getElementById("whiskey_in").style.display=="block") {
+    document.getElementById("whiskey_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("whiskey_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_cognac(){
+  if ( document.getElementById("cognac_in").style.display=="block") {
+    document.getElementById("cognac_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("cognac_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_vodka(){
+  if ( document.getElementById("vodka_in").style.display=="block") {
+    document.getElementById("vodka_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("vodka_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_wine(){
+  if ( document.getElementById("wine_in").style.display=="block") {
+    document.getElementById("wine_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("wine_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_sparkling(){
+  if ( document.getElementById("sparkling_in").style.display=="block") {
+    document.getElementById("sparkling_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("sparkling_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_cocktails(){
+  if ( document.getElementById("cocktails_in").style.display=="block") {
+    document.getElementById("cocktails_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("cocktails_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_shot(){
+  if ( document.getElementById("shot_in").style.display=="block") {
+    document.getElementById("shot_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("shot_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+//     //
+
+
 /*<![CDATA[*/
 
     /**
@@ -26,18 +162,7 @@
          /**
           * Scroll page from buttom to top
           * */
-         this.scrollFromBottomtoTop = function (loadDemo) {
-             setTimeout(function () {
-                 if (loadDemo == true && $('.icon-business-socialmedia').length > 0) {
-                     $("html, body").animate({
-                         scrollTop: $('.icon-business-socialmedia').offset().top
-                     }, 0)
-                     ;$("html, body").animate({
-                         scrollTop: 0
-                     }, 1000);
-                 }
-             }, 0)
-         }
+         
      });
  
      app.directive('shGalleryImage', function () {
@@ -704,46 +829,3 @@ function up() {
 }
 //    //
 
-function viewDiv_beer(){
-  if ( document.getElementById("beer_in").style.display=="block") {
-    document.getElementById("beer_in").style.display = "none";
-    document.getElementById("in").style.display = "block";
-   
-  }else{
-    document.getElementById("beer_in").style.display = "block";
-    document.getElementById("in").style.display = "none";
-  }
-};
-
-function viewDiv_gin(){
-  if ( document.getElementById("gin_in").style.display=="block") {
-    document.getElementById("gin_in").style.display = "none";
-    document.getElementById("in").style.display = "block";
-   
-  }else{
-    document.getElementById("gin_in").style.display = "block";
-    document.getElementById("in").style.display = "none";
-  }
-};
-
-function viewDiv_liqueur(){
-  if ( document.getElementById("liqueur_in").style.display=="block") {
-    document.getElementById("liqueur_in").style.display = "none";
-    document.getElementById("in").style.display = "block";
-   
-  }else{
-    document.getElementById("liqueur_in").style.display = "block";
-    document.getElementById("in").style.display = "none";
-  }
-};
-
-function viewDiv_tequila(){
-  if ( document.getElementById("tequila_in").style.display=="block") {
-    document.getElementById("tequila_in").style.display = "none";
-    document.getElementById("in").style.display = "block";
-   
-  }else{
-    document.getElementById("tequila_in").style.display = "block";
-    document.getElementById("in").style.display = "none";
-  }
-};
