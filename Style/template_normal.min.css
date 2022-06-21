@@ -90,7 +90,7 @@ color: #000000;
     background-color: #E6E6E6;
   
     width: auto;
-    height: auto3;
+    height: auto;
     margin-right: 0px;
     margin-left: auto;
     padding-right: 0px;
@@ -104,9 +104,7 @@ color: #000000;
   .tabs__pane {
 
     display: none;
-    background-color: #E6E6E6;
-    -moz-border-radius-topleft: 15vw; 
-    -webkit-border-top-left-radius: 15vw;     
+     
   }
 
 
@@ -386,9 +384,7 @@ margin: 0px;
 
 .block_b{
  padding:  20px;
- background-color: #E6E6E6;
- -moz-border-radius-topleft: 15vw; 
- -webkit-border-top-left-radius: 15vw; 
+ 
 }
 
 .block_f img{
@@ -488,9 +484,7 @@ color: #B0B0B0;
     margin-bottom: 5vw;
     margin-left: 6.98vw;
     margin-right: 5.98vw;
-    background-color: #E6E6E6;
-    -moz-border-radius-topleft: 15vw; 
-    -webkit-border-top-left-radius: 15vw;   }
+    }
 
   .bar_bl{
     display: block;
@@ -862,9 +856,7 @@ color: #B0B0B0;
      .bar_img{
       margin-right: 20%;
       margin-left: 20%;
-      background-color: #E6E6E6;
-      -moz-border-radius-topleft: 15vw; 
-      -webkit-border-top-left-radius: 15vw;   }
+        }
   
      .bar_img button{
       margin: 1vw;
