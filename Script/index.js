@@ -205,9 +205,6 @@ function viewDiv_shot(){
                      window.setTimeout(function () {
                          $(".loading-welcome.welcome-screen").fadeOut();
                          scope.welcomeScreenScrollWindow++;
-                         if (scope.welcomeScreenScrollWindow == 1) {
-                             qr.scrollFromBottomtoTop(scope.loadDemo)
-                         }
                      }, 2000);
                  });
                  element.bind('error', function () {
@@ -678,17 +675,7 @@ function viewDiv_shot(){
                  }
              });
  
-             $(document).ready(function () {
-                 /**
-                  * To work, function 'copyLinkToClipboard' needs to be called from an event listener on the copy button
-                  * */
-                 document.getElementById("copyButton1").addEventListener("click", function (event) {
-                     if (event) {
-                         event.preventDefault();
-                     }
-                     $scope.copyLinkToClipboard(document.getElementById("shortUrl"));
-                 });
-             });
+             
  
              /**
               * Convert hex color to rgbA
@@ -737,11 +724,7 @@ function viewDiv_shot(){
  
      if (parent && typeof parent.ImHere === "function") {
          parent.ImHere();
-     } else {
-         //Only load this on standalone pages not inframe working
-         SocialShareKit.init();
-     }
- 
+     } 
      /**
       * Toggle fab
       *
