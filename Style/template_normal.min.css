@@ -13,9 +13,7 @@
 /*Вкладки*/
   .tabs {
 
-    background-color: #E6E6E6;
-    -moz-border-radius-topleft: 15vw; 
-    -webkit-border-top-left-radius: 15vw;     
+        
     border: none;
   }
 
@@ -36,9 +34,9 @@
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    background-color: #E6E6E6;
-    -moz-border-radius-topleft:15vw; 
-    -webkit-border-top-left-radius: 15vw; 
+     background-color: #E6E6E6;
+      -moz-border-radius-topleft:15vw; 
+      -webkit-border-top-left-radius: 15vw;  
   }
 
   .tabs__btn {
