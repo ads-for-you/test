@@ -146,14 +146,7 @@ function viewDiv_shot(){
       *
       * @param input - string
       * */
-     app.filter('dashEncode', function () {
-         return function (input) {
-             if (input) {
-                 return input.replace(/ /g, "-");
-             } else
-                 return ' ';
-         };
-     });
+     
  
      /**
       * The QR service for the app.
@@ -163,32 +156,6 @@ function viewDiv_shot(){
           * Scroll page from buttom to top
           * */
          
-     });
- 
-     app.directive('shGalleryImage', function () {
-         return {
-             restrict: 'E',
-             template:
-                 '<div class="sh-image" ng-click="openGallery(image)" ng-style="getImageContainerStyle(image)">' +
-                     // '<img class="sh-image__thumbnail" ng-src="{{ image.thumbnail }}">' +
-                     '<img class="sh-image__image" ng-src="{{ image.url }}" ng-class="{&apos;sh-image__image--loaded&apos;: imageUrl}">' +
-                 '</div>',
-             controller: ['$scope', function ($scope) {
-                 $scope.imageUrl = '';
-                 // $scope.$watch('image.url', function () {
-                 //     if (!$scope.image || !$scope.image.url) {
-                 //         $scope.imageUrl = '';
-                 //         return;
-                 //     }
-                 //     var im = new Image();
-                 //     im.onload = function () {
-                 //         $scope.imageUrl = this.src;
-                 //         $scope.$apply();
-                 //     };
-                 //     im.src = $scope.image.url;
-                 // });
-             }]
-         };
      });
  
      /**
@@ -212,77 +179,10 @@ function viewDiv_shot(){
              }
          };
      }]);
- 
-     app.filter('normalizeUrl', function () {
-         return function (url) {
-             if (!url) {
-                 return url;
-             }
-             if (/^https?:\/\//i.test(url)) {
-                 return url;
-             }
-             return 'http://' + url;
-         };
-     });
- 
-     app.filter('displayUrl', function () {
-         return function (url) {
-             if (!url) {
-                 return url;
-             }
-             if (/^http:\/\//i.test(url)) {
-                 return url.substr(7);
-             }
-             if (/^https:\/\//i.test(url)) {
-                 return url.substr(8);
-             }
-             return url;
-         };
-     });
- 
-     /**
+   /**
       * Return domain of input
       * */
-     app.filter('domain', function () {
-         return function (input) {
-             if (input) {
-                 if (input.indexOf('://') >= 0) {
-                     return input.split('/')[2]
-                 }
-                 return input.split('/')[0]
-             }
-             return input;
-         };
-     });
- 
-     app.directive('pictureInput', ['$log', function ($log) {
-         return {
-             restrict: 'A',
-             link: function (scope, element) {
-                 element.on('change', function () {
-                     var el = element[0];
-                     if ("files" in el && el.files.length > 0) {
-                         var file = el.files[0];
-                         $log.debug("Got picture type: " + file.type);
-                         if (/^image\//.test(file.type)) {
-                             $log.debug("Reading picture... [type: " + file.type + ", size: " + file.size + "]");
-                             var reader = new FileReader();
-                             reader.onload = function () {
-                                 $log.debug("Reading is done [" + ('' + reader.result).substr(0, 30) + "...]");
-                                 scope.setPicture(reader.result);
-                                 scope.$apply();
-                             };
-                             reader.readAsDataURL(file);
-                         }
-                     } else {
-                         scope.setPicture('');
-                         scope.isTakingPictureAvailable = false;
-                         scope.$apply();
-                     }
-                 });
-             }
-         };
-     }]);
+
  
      //Override the base preview controller
      app.controller('ComplexController', function ($scope, $controller, $sce, $rootScope, $filter, previewService, $window, $log, http, $timeout) {

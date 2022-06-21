@@ -13,7 +13,9 @@
 /*Вкладки*/
   .tabs {
 
-    background: #E6E6E6;
+    background-color: #E6E6E6;
+    -moz-border-radius-topleft: 15vw; 
+    -webkit-border-top-left-radius: 15vw;     
     border: none;
   }
 
@@ -88,7 +90,7 @@ color: #000000;
 
   .tabs__content {
     background-color: #E6E6E6;
-
+  
     width: auto;
     height: auto3;
     margin-right: 0px;
@@ -105,7 +107,8 @@ color: #000000;
 
     display: none;
     background-color: #E6E6E6;
-    
+    -moz-border-radius-topleft: 15vw; 
+    -webkit-border-top-left-radius: 15vw;     
   }
 
 
@@ -121,6 +124,8 @@ margin-left: auto;
 padding-right: 0px;
 padding-left: auto;
 background-color: #E6E6E6;
+  -moz-border-radius-topleft: 15vw; 
+  -webkit-border-top-left-radius: 15vw; 
   }
 
 
@@ -383,8 +388,9 @@ margin: 0px;
 
 .block_b{
  padding:  20px;
-  background-color: #E6E6E6;
-
+ background-color: #E6E6E6;
+ -moz-border-radius-topleft: 15vw; 
+ -webkit-border-top-left-radius: 15vw; 
 }
 
 .block_f img{
@@ -478,18 +484,20 @@ color: #B0B0B0;
 
 
   .bar_img{
+    display: block;
+    justify-content: center;
+    align-items: center;    padding-top: 3vh;
+    margin-bottom: 5vw;
+    margin-left: 6.98vw;
+    margin-right: 5.98vw;
     background-color: #E6E6E6;
     -moz-border-radius-topleft: 15vw; 
     -webkit-border-top-left-radius: 15vw;   }
 
-  #bar_img{
-      display: block;
-    }
-
   .bar_bl{
-    margin-bottom: 5vw;
-    margin-left: 6.98vw;
-    margin-right: 5.98vw;
+    display: block;
+    justify-content: center;
+    align-items: center;
   }
 
 .bar_img button{
