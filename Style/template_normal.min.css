@@ -541,7 +541,8 @@ color: #B0B0B0;
 
   #tequila{
     margin-left: 2vw;
-    
+    transform: translateY(-2.5vw);
+
     background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/tequila.jpg);
     
     border-radius: 15px;
@@ -568,7 +569,8 @@ color: #B0B0B0;
 
   #whiskey{
     margin-left: 2vw;
-    
+    transform: translateY(-2.5vw);
+
     background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/whiskey.png);
     
     border-radius: 15px;
@@ -615,7 +617,8 @@ color: #B0B0B0;
 
   #sparkling{
     margin-left: 2vw;
-    
+    transform: translateY(-2.5vw);
+
     background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/sparkling.png);
     
     border-radius: 15px;
