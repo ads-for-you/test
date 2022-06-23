@@ -140,6 +140,7 @@
 /*Вкладки*/
   .tabs {
     border: none;
+    
   }
 
 
@@ -150,15 +151,15 @@
   }
 
   .tabs__nav {
+    -moz-border-radius-topleft: 15vw; 
+
     padding-left: 15px;
     padding-top: 35px;
     justify-content: left;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    background-color: #E6E6E6;
-    -moz-border-radius-topleft:15vw; 
-    -webkit-border-top-left-radius: 15vw;  
+    
   }
 
 .tabs__btn {
@@ -314,7 +315,7 @@ color: #161616;
 /*Скрол меню*/
 .nav-scroller {
   overflow-y: hidden;
-  background-color: #F5F5F5;
+
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 .nav-scroller__items {
@@ -599,7 +600,6 @@ color: #423f3f;
 
   #beer_in,#gin_in,#liqueur_in,#tequila_in,#rum_in,#whiskey_in,#cognac_in,#vodka_in,#wine_in,#sparkling_in,#cocktails_in, #shot_in {
     -moz-border-radius-topleft: 15vw; 
-    -webkit-border-top-left-radius: 15vw; 
     position: relative;
     top: 0px;
     left: 0px;
@@ -688,25 +688,29 @@ color: #423f3f;
   }
 
 
-  #Tokyo{
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/hookah.jpg);
-    
+  #Tokyo img{
+    -moz-border-radius-topleft: 15vw; 
   }
+ 
 
   #Tokyo p{
+    position: absolute;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 34px;
-    /* identical to box height */
-    
+
     letter-spacing: 0.32px;
     
     color: linear-gradient(100.7deg, #C7C7C7 0%, rgba(199, 199, 199, 0) 136.33%);
   
   }
-      #tokyo h1{
+      #Tokyo h1{
+        position: absolute;
+        top: 250px;
+        left: 0;
+        width: 100%;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
@@ -723,18 +727,21 @@ color: #423f3f;
 
   @media (min-width: 499px) {
 
+     
+
     #button_in{
       margin-right: 20%;
       margin-left: 20%;
     }
 
     .tabcontent {
-        background-color: #F5F5F5;
+        background-color: #E6E6E6;
+        margin-right: 20%;
+        margin-left: 20%;
       }
   
      .tabs {
-        margin-right: 25%;
-        margin-left: 25%;
+      
      }
       
      .tab button.active {
@@ -790,8 +797,9 @@ color: #423f3f;
      }
   
      .bar_img{
-      margin-right: 20%;
-      margin-left: 20%;
+      margin-right: 0%;
+      margin-left: 0%;
+      margin: 5vw;
         }
   
      .bar_img button{
@@ -807,6 +815,11 @@ color: #423f3f;
       letter-spacing: 0.32px;
       color: #FFFFFF;
     }
+
+#Tokyo{
+  margin-right: 20%;
+  margin-left: 20%;
+}
   
   }
 
