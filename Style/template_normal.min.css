@@ -9,6 +9,155 @@
 .progress .indeterminate:after{content:'';position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left, right;-webkit-animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;-webkit-animation-delay:1.15s;animation-delay:1.15s}@-webkit-keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}@keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}@-webkit-keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}@keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}
 
 
+#beer{
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/beer.jpg);
+  
+  border-radius: 15px;
+  background-size: 165%;
+  background-position: 45% 53%;
+  border-radius: 10%;
+}
+
+#gin{
+  margin-left: 2vw;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/gin.png);
+  
+  border-radius: 15px;
+  background-size: 135%;
+  background-position: 45% 16%;
+  border-radius: 10%;
+}
+
+#liqueur{
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/liqueur.png);
+  
+  border-radius: 15px;
+  background-size: 125%;
+  background-position: 15% 3%;
+  border-radius: 10%;
+}
+
+#tequila{
+  margin-left: 2vw;
+  transform: translateY(-2vw);
+  display: table-cell;
+  vertical-align: middle ;
+
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/tequila.jpg);
+  
+  border-radius: 15px;
+  background-size: 105%;
+  background-position: 45% 16%;
+  border-radius: 10%;
+
+  line-height: 5vw;
+
+
+}
+
+#rum{
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/rum.png);
+  
+  border-radius: 15px;
+  background-size: 120%;
+  background-position: 5% 2%;
+  border-radius: 10%;
+}
+
+
+#whiskey{
+  margin-left: 2vw;
+  transform: translateY(-2vw);
+  display: table-cell;
+  vertical-align: middle ;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/whiskey.png);
+  
+  border-radius: 15px;
+  background-size: 100%;
+  background-position: 45% 6%;
+  border-radius: 10%;
+
+  line-height: 5vw;
+
+
+}
+
+#cognac{
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/cognac.jpg);
+  
+  border-radius: 15px;
+  background-size: 110%;
+  background-position: 25% 2%;
+  border-radius: 10%;
+}
+
+#vodka{
+  margin-left: 2vw;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/vodka.png);
+  
+  border-radius: 15px;
+  background-size: 140%;
+  background-position: 5% 2%;
+  border-radius: 10%;
+}
+
+#wine{
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/wine.png);
+  
+  border-radius: 15px;
+  background-size: 120%;
+  background-position: 0% 0%;
+  border-radius: 10%;
+}
+
+#sparkling{
+  margin-left: 2vw;
+  transform: translateY(-2vw);
+  display: table-cell;
+  vertical-align: middle ;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/sparkling.png);
+  
+  border-radius: 15px;
+  background-size: 120%;
+  background-position: 45% 16%;
+  border-radius: 10%;
+
+  line-height: 5vw;
+
+
+}
+
+#cocktails{
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/cocktails.png);
+  
+  border-radius: 15px;
+  background-size: 100%;
+  background-position: 0% 50%;
+  border-radius: 10%;
+}
+
+#shot{
+  margin-left: 2vw;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/shot.jpg);
+  
+  border-radius: 15px;
+  background-size: 150%;
+  background-position: 40% 20%;
+  border-radius: 10%;
+}
+
 
 /*Вкладки*/
   .tabs {
@@ -245,12 +394,16 @@ color: #161616;
   height: auto;
   
   margin-right: 0px;
-  justify-content: center;
-  overflow: hidden;
+  justify-content: left;
 
   background-color: #F5F5F5;
 }
 
+@media (min-width: 350px) {
+  .tab {
+    justify-content: center;
+  }
+}
 /* Style the buttons that are used to open the tab content */
 .tab button {
   margin: auto 5px 5% 5px;
@@ -428,7 +581,7 @@ margin: 0px;
 .price_f p{
 margin-top: 50%;
 font-size: 120%;
-color: #535353;
+color: #423f3f;
   font-weight: 700;
 }
 
@@ -437,6 +590,7 @@ color: #535353;
 
   margin-left: auto;
   margin-right: 5%;
+  color: #423f3f;
   display: inline-block;
   justify-content: right;
 }
@@ -458,7 +612,7 @@ color: #535353;
 .price_d p{
 margin-top: 60%;
 font-size: 120%;
-color: #B0B0B0;
+color: #423f3f;
   font-weight: 700;
 }
 
@@ -507,151 +661,7 @@ color: #B0B0B0;
   color: #FFFFFF;
   }
 
-  #beer{
-    margin-left: 1vw;
-    margin-right: 1vw;
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/beer.jpg);
-    
-    border-radius: 15px;
-    background-size: 165%;
-    background-position: 45% 53%;
-    border-radius: 10%;
-  }
-
-  #gin{
-    margin-left: 2vw;
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/gin.png);
-    
-    border-radius: 15px;
-    background-size: 135%;
-    background-position: 45% 16%;
-    border-radius: 10%;
-  }
-
-  #liqueur{
-    margin-left: 1vw;
-    margin-right: 1vw;
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/liqueur.png);
-    
-    border-radius: 15px;
-    background-size: 125%;
-    background-position: 15% 3%;
-    border-radius: 10%;
-  }
-
-  #tequila{
-    margin-left: 2vw;
-    transform: translateY(-2.5vw);
-
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/tequila.jpg);
-    
-    border-radius: 15px;
-    background-size: 105%;
-    background-position: 45% 16%;
-    border-radius: 10%;
-
-    line-height: 5vw;
  
-
-  }
-
-  #rum{
-    margin-left: 1vw;
-    margin-right: 1vw;
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/rum.png);
-    
-    border-radius: 15px;
-    background-size: 120%;
-    background-position: 5% 2%;
-    border-radius: 10%;
-  }
-
-
-  #whiskey{
-    margin-left: 2vw;
-    transform: translateY(-2.5vw);
-
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/whiskey.png);
-    
-    border-radius: 15px;
-    background-size: 100%;
-    background-position: 45% 6%;
-    border-radius: 10%;
-
-    line-height: 5vw;
- 
-
-  }
-
-  #cognac{
-    margin-left: 1vw;
-    margin-right: 1vw;
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/cognac.jpg);
-    
-    border-radius: 15px;
-    background-size: 110%;
-    background-position: 25% 2%;
-    border-radius: 10%;
-  }
-
-  #vodka{
-    margin-left: 2vw;
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/vodka.png);
-    
-    border-radius: 15px;
-    background-size: 140%;
-    background-position: 5% 2%;
-    border-radius: 10%;
-  }
-
-  #wine{
-    margin-left: 1vw;
-    margin-right: 1vw;
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/wine.png);
-    
-    border-radius: 15px;
-    background-size: 120%;
-    background-position: 0% 0%;
-    border-radius: 10%;
-  }
-
-  #sparkling{
-    margin-left: 2vw;
-    transform: translateY(-2.5vw);
-
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/sparkling.png);
-    
-    border-radius: 15px;
-    background-size: 120%;
-    background-position: 45% 16%;
-    border-radius: 10%;
-
-    line-height: 5vw;
- 
-
-  }
-
-  #cocktails{
-    margin-left: 1vw;
-    margin-right: 1vw;
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/cocktails.png);
-    
-    border-radius: 15px;
-    background-size: 100%;
-    background-position: 0% 50%;
-    border-radius: 10%;
-  }
-
-  #shot{
-    margin-left: 2vw;
-    background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/shot.jpg);
-    
-    border-radius: 15px;
-    background-size: 150%;
-    background-position: 40% 20%;
-    border-radius: 10%;
-  }
-
   #in{
     display: block;
   }
@@ -734,9 +744,9 @@ color: #B0B0B0;
   }
 
   #cock_bl h4 {
-    color: #B0B0B0;
+    color: #423f3f;
     font-weight: 700;
-    font-size: 3.9vw;
+    font-size: 4.5vw;
     margin-top: 1vh;
     margin-left: 5vw;
   }
