@@ -501,28 +501,7 @@ function viewDiv_shot(){
  
              $scope.toggleFab = toggleFab;
  
-             /**
-              * Toggle dialog
-              *
-              * @param id - string
-              * @param element - current target
-              * */
-             $scope.toggleDialog = function (id, element) {
-                 if (element) {
-                     var elem = element.context.outerHTML;
-                     $('#' + id + ' .dialog-container .event-gotIt-button').html(elem);
-                     var button = $('#' + id + ' .dialog-container .event-gotIt-button .sh-button');
-                     if (button) {
-                         button.click(function (event) {
-                             event.preventDefault();
-                         });
-                     }
-                 }
-                 $($('#' + id).parent()).toggleClass('fabOnTop');
-                 $('#' + id + ' .dialog-container').toggleClass('is-visible');
-                 $('#prime.fab').toggleClass('disabledClick');
-                 $('#' + id + ' .fixed-blur-bgd').toggle();
-             };
+             
  
              /**
               * Callback of the dialog yes/no buttons

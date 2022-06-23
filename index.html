@@ -20,11 +20,7 @@
 <body ng-app="app" id="dvideo-body" ng-controller="ComplexController" class="sh-body" ng-style="getBodyStyles()">
 
  
-    <div class="loading-welcome active welcome-screen"
-        style="background-color: #000000">
-    <div class="progress">
-        <div class="loading-bar indeterminate" ng-style="{'background-color': view.code.color1 || view.color1}"></div>
-    </div>
+<div class="loading-welcome active welcome-screen" style="background-color: #000000">
     <div class="helper"></div>
     <img id="welcomeImg" imageonload ng-src="{{view.welcome_screen || 'https://s3.eu-central-1.amazonaws.com/qrcgappcdn/gallery-solution/welcome.png'}}"
          ng-style="{
